@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "dynamic_array",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Array.sol": "Types"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Array.sol": {
+			"keccak256": "0x45e94a5219559bbda2cdd97a010aa65383a68e9bca5cb447546c8b8703800dc2",
+			"urls": [
+				"bzz-raw://93589167de8b46cda8f4f3bf6d9f887568f9260f7f32fd4feacebc7f146fbb93",
+				"dweb:/ipfs/QmekKmpobHxkNTFoaWyfVujyG4uHUyQZKB8LSXNkQ3YLsD"
+			]
+		}
+	},
+	"version": 1
+}

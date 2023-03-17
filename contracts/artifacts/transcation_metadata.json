@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changestatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "enum transcation.state",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum transcation.state",
+						"name": "_tempstate",
+						"type": "uint8"
+					}
+				],
+				"name": "setstate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enum.sol": "transcation"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enum.sol": {
+			"keccak256": "0x02d17606c8b6d4c1a4f62c52c1e80cc78b1d0b8ae44e6397a84215ca3de6a18f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://973cb0172de2c9273ee126641023a247c9d82430bb52e51fc7e300a7c2713bf8",
+				"dweb:/ipfs/QmWP1VRrJpFbuQ3YNxt5Vi1Q3fXwKNJ4NZH94S8E4nR25G"
+			]
+		}
+	},
+	"version": 1
+}

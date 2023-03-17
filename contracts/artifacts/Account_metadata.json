@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "account",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"name": "sendmoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Account.sol": "Account"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Account.sol": {
+			"keccak256": "0x6ebf77772142888b4cf8d7002e7dce4fd5f5b9b4bab8bdc78a8f2cd48ec2214a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e13639d0e3fe80260812ce699e1412e0fca5806d5183d5e99dcb734312876406",
+				"dweb:/ipfs/QmXuTCtKYWmhLT8F1DFpHWZtsUpdNodaNhmLbbcoS5gG2a"
+			]
+		}
+	},
+	"version": 1
+}
