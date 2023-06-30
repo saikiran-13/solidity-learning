@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "reciever",
+						"type": "address"
+					}
+				],
+				"name": "mintNft",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/newContract.sol": "NewMint"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/newContract.sol": {
+			"keccak256": "0x0d99e2b899906257f6c4d8fea14b79280492f9e32d54e8975ed110ca75ed1612",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59031196ba87f92b7f8ee9de79cd16a6c550859e5ce056b6377263c940289f08",
+				"dweb:/ipfs/QmQo5XeUD1XMmCweZBGHCGw3JvqQFjJqCCcL1gHCz7BDPg"
+			]
+		}
+	},
+	"version": 1
+}

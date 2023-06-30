@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,6 +9,57 @@
 				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "countUpdated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transferCalled",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "contractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -34,6 +85,13 @@
 					}
 				],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -87,6 +145,32 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_count",
+						"type": "uint256"
+					}
+				],
+				"name": "setcount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -102,7 +186,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Practice.sol": "counter"
+			"contracts/simple.sol": "counter"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -116,12 +200,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Practice.sol": {
-			"keccak256": "0x8fcbb1c24ddb57f07305951781ed80e7d890d3875e1560ef0a296ab4d9d525e9",
+		"contracts/simple.sol": {
+			"keccak256": "0x7b7790c212b7e7f0ae55a50c6a7a144ceb4b36f47159b765fe76563789be94b1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3a86261567511851e0be324d9302b26b24df8452dc88649ec621ee7c72bfcb04",
-				"dweb:/ipfs/QmVeBm1oBooSZEP5jFQXjzyt3HSR72mVWLgwrtb1jGBWnQ"
+				"bzz-raw://f4c5f90f971f1707879be53c6697c5c522984f413ca54aa3b40a20aba456f1c4",
+				"dweb:/ipfs/QmUC2utBGbSFgdPAvDSt2tEcDCm6gMYdfDXfm7ct7wXThR"
 			]
 		}
 	},

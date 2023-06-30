@@ -6,12 +6,26 @@ contract Array{
     // uint[4] public arr = [1,2,3,4];//Fixed size array
     // uint[] public dynamicarr;
     uint[3] private temparr = [8,9,10];
-    uint[3] public array;
+    uint[3] public array = [111,112,113];
+    uint[] public testarr = [4,5,6,7];
     //Bytes array gives output in the hexadecimal digits
     bytes3 public b3 = 'abc';
     // bytes2 public b2 = 'abc'; //this will give an error as size is of 2 bytes given value is more(overflow)
     bytes4 public b4 = 'abc';
+
+    function showarr() public view returns(uint[3] memory){
+        // array = [12,23,34];
+        // array[1] = 66;
+        return array;
+    } 
   
+    function removeele(uint _ind) public {
+        for(uint i=_ind;i<testarr.length-1;i++){
+            testarr[_ind] = testarr[_ind+1];
+        }
+        testarr.pop();
+  
+    }
     // constructor(){
     //     game = 100;
     //     count1 = 0;

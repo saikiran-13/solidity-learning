@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "count",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract ICounter",
+						"name": "counter",
+						"type": "address"
+					}
+				],
+				"name": "useCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Interface.sol": "CounterUser"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Interface.sol": {
+			"keccak256": "0x2da57f90c096c0e9216c2ec80a683317620b4b6d5ad7a3f3ea3a9a10c037923e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c50d76575dcf4f237bc2565edbd37e1500718fee4df2032fc0cc12d68b9b0280",
+				"dweb:/ipfs/QmV7nNGRZfi1ofMKxMrVb7NkVX9S7W7nPVrGxZPGB73ipR"
+			]
+		}
+	},
+	"version": 1
+}

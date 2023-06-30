@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -62,6 +62,51 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ind",
+						"type": "uint256"
+					}
+				],
+				"name": "removeele",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showarr",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "testarr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -92,11 +137,11 @@
 	},
 	"sources": {
 		"contracts/Array.sol": {
-			"keccak256": "0xff9a50ccd85a6006468a7281310943fcb0f41e0015cb8e30d555d99489981cb6",
+			"keccak256": "0x75626dd02c72a894e0a2eac80414aa5ceb9706d3a2463a233c8dbffbc0e4d296",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://eb7deb69dd03fd05e86106540223e5259c2718b688969b373b807662acef2685",
-				"dweb:/ipfs/QmU3uWRrygGaf5fYeyXsrQyphFqBRcpbch9gWv4DP8eUYp"
+				"bzz-raw://5450828c9e9ce094da83d7c30b8ca3d304927f7f1967d3d5338d71b1c9016eb0",
+				"dweb:/ipfs/QmRmhpLRphfSb844riCGTPgkM2oaVhk4RoA969LWMMDCVn"
 			]
 		}
 	},
